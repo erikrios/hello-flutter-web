@@ -11,6 +11,10 @@ class MyApp extends StatelessWidget {
       color: Colors.green,
       home: Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.menu),
+            onPressed: () {},
+          ),
           title: Text(
             'Flutter Web',
           ),
