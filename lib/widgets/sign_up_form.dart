@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'animated_progress_indicator.dart';
+
 class SignUpForm extends StatefulWidget {
   @override
   _SignUpFormState createState() => _SignUpFormState();
@@ -19,7 +21,7 @@ class _SignUpFormState extends State<SignUpForm> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          LinearProgressIndicator(
+          AnimatedProgressIndicator(
             value: _formProgress,
           ),
           Text(
